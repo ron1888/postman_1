@@ -1,4 +1,3 @@
-
 {
 	"info": {
 		"_postman_id": "7bc3e7b0-77dc-4a8a-a9b3-9f9636330229",
@@ -50,8 +49,28 @@
 			"request": {
 				"method": "POST",
 				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "dima",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "29",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "1000",
+							"type": "text"
+						}
+					]
+				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/user_info_3?name=dima&age=29&salary=1000",
+					"raw": "http://162.55.220.72:5005/user_info_3",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -62,20 +81,6 @@
 					"port": "5005",
 					"path": [
 						"user_info_3"
-					],
-					"query": [
-						{
-							"key": "name",
-							"value": "dima"
-						},
-						{
-							"key": "age",
-							"value": "29"
-						},
-						{
-							"key": "salary",
-							"value": "1000"
-						}
 					]
 				}
 			},
@@ -230,8 +235,28 @@
 			"request": {
 				"method": "POST",
 				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "dima",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "29",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "1000",
+							"type": "text"
+						}
+					]
+				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/user_info_2?name=dima&age=29&salary=1000",
+					"raw": "http://162.55.220.72:5005/user_info_2",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -242,20 +267,6 @@
 					"port": "5005",
 					"path": [
 						"user_info_2"
-					],
-					"query": [
-						{
-							"key": "name",
-							"value": "dima"
-						},
-						{
-							"key": "age",
-							"value": "29"
-						},
-						{
-							"key": "salary",
-							"value": "1000"
-						}
 					]
 				}
 			},
