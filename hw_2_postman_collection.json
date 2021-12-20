@@ -361,7 +361,7 @@
 							"if (i<1){\r",
 							"    console.log(\"age: \" + jsonResponse.person.u_age);\r",
 							"} else if(i<2){\r",
-							"    console.log(\"u_name: \" + jsonResponse.person.u_name);\r",
+							"    console.log(\"u_name: \" + jsonResponse.person.u_name[0]);\r",
 							"}else if(i<3){\r",
 							"    console.log(\"u_salary_5_years: \" + jsonResponse.person.u_salary_5_years);\r",
 							"}};\r",
